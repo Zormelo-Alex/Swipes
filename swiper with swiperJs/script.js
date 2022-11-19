@@ -4,6 +4,7 @@ const swiper = new Swiper('.swiper', {
     // direction: 'vertical',
     autoplay:{
         delay: 2000,
+        disableOnInteraction: false,
     },
     loop: true,
   
